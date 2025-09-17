@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cyber: {
+          glow: "hsl(var(--cyber-glow))",
+          dark: "hsl(var(--cyber-dark))",
+          surface: "hsl(var(--cyber-surface))",
+          border: "hsl(var(--cyber-border))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -80,10 +86,30 @@ export default {
             height: "0",
           },
         },
+        "cyber-pulse": {
+          "0%, 100%": {
+            boxShadow: "0 0 20px hsl(193 100% 60% / 0.1)",
+          },
+          "50%": {
+            boxShadow: "0 0 40px hsl(193 100% 60% / 0.3)",
+          },
+        },
+        "fade-in": {
+          from: {
+            opacity: "0",
+            transform: "translateY(10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "cyber-pulse": "cyber-pulse 2s ease-in-out infinite",
+        "fade-in": "fade-in 0.6s ease-out",
       },
     },
   },
