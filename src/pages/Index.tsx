@@ -30,7 +30,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">SecureWipe ISO</span>
+              <span className="text-xl font-bold">Cert Wipe</span>
             </div>
             <Link to="/login">
               <Button variant="outline" className="cyber-glow">
@@ -82,7 +82,7 @@ const Index = () => {
       <section className="py-24 bg-card/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-3xl font-bold mb-4">Why Choose SecureWipe ISO?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why Choose Cert Wipe?</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Our comprehensive data wiping solutions meet the highest security standards
             </p>
@@ -151,10 +151,10 @@ const Index = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <Shield className="h-6 w-6 text-primary" />
-              <span className="font-semibold">SecureWipe ISO</span>
+              <span className="font-semibold">Cert Wipe</span>
             </div>
             <p className="text-muted-foreground text-sm">
-              © 2024 SecureWipe ISO. All rights reserved.
+              © 2024 Cert Wipe. All rights reserved.
             </p>
           </div>
         </div>

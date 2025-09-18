@@ -21,7 +21,7 @@ const Login = () => {
     if (email && password) {
       toast({
         title: "Login Successful",
-        description: "Welcome to SecureWipe ISO Dashboard",
+        description: "Welcome to Cert Wipe Dashboard",
       });
       navigate("/dashboard");
     } else {
@@ -42,7 +42,7 @@ const Login = () => {
           <div className="mx-auto mb-4 flex items-center justify-center">
             <Shield className="h-12 w-12 text-primary animate-cyber-pulse" />
           </div>
-          <CardTitle className="text-2xl font-bold">SecureWipe ISO</CardTitle>
+          <CardTitle className="text-2xl font-bold">Cert Wipe</CardTitle>
           <p className="text-muted-foreground">Access your security dashboard</p>
         </CardHeader>
         
